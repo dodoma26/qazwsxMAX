@@ -1,5 +1,1 @@
-
-<script>
-  
-  alert( "Привет" );
-</script>
+cefcef
