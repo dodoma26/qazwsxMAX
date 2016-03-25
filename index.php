@@ -1,4 +1,0 @@
-<script>
-  
-  alert( "Привет" );
-</script>
