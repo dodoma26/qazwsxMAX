@@ -1,3 +1,4 @@
+сыс
 <?php
 require_once("database.php");
 require_once("articles.php");
