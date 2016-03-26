@@ -4,6 +4,7 @@ body{
     background: black;
     padding: 0;
     margin: 0;
+    overflow-y: hidden;
     
     
 }
@@ -137,11 +138,12 @@ body{
     transition: 2s;
 }
 #MM{
-    width:33px;
-    height: 36px;
+    width:13px;
+    height: 16px;
     background: url(M.png);
     background-repeat: no-repeat;
     background-position: center;
+   
     display: inline-block;
     margin-left: -20px;
     cursor: pointer;
@@ -152,21 +154,17 @@ body{
     opacity: 1;
 }
 .bar{
-    width: 300px;
+    width: 320px;
     height: 1080px;
-    background: #4d4d4d;
+    background: #414141;
     box-shadow: 20px 0 60px #000;
     position: absolute;
+    overflow-y: scroll;
     z-index: 3;
     margin-left: -380px;
     padding-top: 50px;
     transition: .6s;
-   background: rgb(114,114,114);
-background: -moz-linear-gradient(top,  rgb(114,114,114) 51%, rgb(0,0,0) 100%);
-background: -webkit-linear-gradient(top,  rgb(114,114,114) 51%,rgb(0,0,0) 100%);
-background: linear-gradient(to bottom,  rgb(114,114,114) 51%,rgb(0,0,0) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#727272', endColorstr='#000000',GradientType=0 );
-
+  
 
 }
 .row{
@@ -187,9 +185,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#727272', end
     margin-left: 5px;
 }
 #M2{
+    
     background: url(M2.png);
     height: 40px;
     cursor: pointer;
+   
+   background-size: 100%;
+    background-repeat: no-repeat;
     opacity: 0.8;
     transition: .3s;
     width: 40px;
@@ -200,9 +202,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#727272', end
     opacity: 1;
 }
 #M3{
+     
     position: absolute;
     background: url(M3.png);
     display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 40px;
     cursor: pointer;
     background-position: center;
