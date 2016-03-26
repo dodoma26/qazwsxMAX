@@ -2,6 +2,7 @@ function res(whot){
         return whot *(screen.width/1920);
     }
 window.onload = function () {
+     setTimeout(function(){
        $('#rrt').css({"width":res(600),"font-size": res(30)});
     $('#rr').css({"font-size": res(20)});
     $('.bg').css({"margin-top": res(-20),"background-size":res(1920),"padding":res(40)});
@@ -19,7 +20,7 @@ window.onload = function () {
     $('.row').css({"margin-top": res(12),"width": res(290),"font-size": res(16),"height": res(20)});
     $('#M2').css({"margin-top": res(-25),"width": res(40),"height": res(40),"margin-left": res(245)});
     $('#M3').css({"margin-top": res(-25),"width": res(40),"height": res(40),"margin-left": res(5)});
-    
+     },10)
 }
 
     
