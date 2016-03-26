@@ -139,7 +139,7 @@ body{
 #MM{
     width:33px;
     height: 36px;
-    background: url(img/M.png);
+    background: url(M.png);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -187,7 +187,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#727272', end
     margin-left: 5px;
 }
 #M2{
-    background: url(img/M2.png);
+    background: url(M2.png);
     height: 40px;
     cursor: pointer;
     opacity: 0.8;
@@ -201,7 +201,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#727272', end
 }
 #M3{
     position: absolute;
-    background: url(img/M3.png);
+    background: url(M3.png);
     display: inline-block;
     height: 40px;
     cursor: pointer;
