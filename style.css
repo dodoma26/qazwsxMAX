@@ -73,7 +73,7 @@ body{
     margin-top: 50px;
     margin-left: 20px;
     display: inline-block;
-    transition: 2s;
+    transition: 2s ease 2s;
 }
 .LK{
     display: inline-block;
@@ -105,7 +105,7 @@ body{
 }
 .text{
     font-size: 20px;
-    margin-top: -180px;
+    margin-top: 50px;
     width: 850px;
     letter-spacing: 1px;
      opacity: 0;
@@ -159,7 +159,7 @@ body{
     background: #414141;
     box-shadow: 20px 0 60px #000;
     position: absolute;
-    overflow-y: scroll;
+    
     z-index: 3;
     margin-left: -380px;
     padding-top: 50px;
