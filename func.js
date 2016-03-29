@@ -186,11 +186,11 @@
 
 
 
-
+qq=1;
 function res(whot){
     if (device.mobile())
         {
-            alert("!");
+            qq=0;
         }else        {
             
         whot=whot *(screen.width/1920);
@@ -206,7 +206,7 @@ window.onload = function () {
     $('.bg').css({"margin-top": res(-20),"background-size":res(1920),"padding":res(40)});
     $('#logo').css({"font-size": res(50),"margin-left":res(15),"margin-top":res(-15)});
     $('.h-l').css({"margin-top":res(-25)});
-    $('.map').css({"width": res(600),"margin-top":res(170),"height": res(385)});
+    $('.map').css({"width":res(600),"margin-top":res(170),"height": res(385)});
     $('.SO').css({"margin-left": res(-15),"margin-top":res(10), opacity:"1"});
     $('.weather').css({"margin-left": res(50),"margin-top":res(20),"font-size": res(20)});
     $('.op').css({"margin-left": res(900)});
@@ -237,18 +237,18 @@ window.onload = function () {
 	  $(".bar").css({"margin-left": "-380px"});
     }
 		);
-    setTimeout(function(){$('#logo').css({ opacity:"1","margin-left": res(20)});},10)
-    setTimeout(function(){$('.h-l').css({"width": res(600)});},500)
-    setTimeout(function(){$('#ii').css({ opacity:"1","margin-left": "0px"});},50)
-    setTimeout(function(){$('#rr').css({ opacity:"0.8"});},900)
-    setTimeout(function(){$('.text').css({ opacity:"0.8"});},900)
-    setTimeout(function(){$('#rrt').css({ opacity:"0.8"});},1500)
+    setTimeout(function(){$('#logo').css({ opacity:"1","margin-left": res(20)});},10*qq)
+    setTimeout(function(){$('.h-l').css({"width": res(600)});},500*qq)
+    setTimeout(function(){$('#ii').css({ opacity:"1","margin-left": "0px"});},50*qq)
+    setTimeout(function(){$('#rr').css({ opacity:"0.8"});},900*qq)
+    setTimeout(function(){$('.text').css({ opacity:"0.8"});},900*qq)
+    setTimeout(function(){$('#rrt').css({ opacity:"0.8"});},1500*qq)
     
-    setTimeout(function(){$('#f1').css({ opacity:"0.6"});},1400)
-    setTimeout(function(){$('#f2').css({ opacity:"0.6"});},1500)
-    setTimeout(function(){$('#f3').css({ opacity:"0.6"});},1600)
+    setTimeout(function(){$('#f1').css({ opacity:"0.6"});},1400*qq)
+    setTimeout(function(){$('#f2').css({ opacity:"0.6"});},1500*qq)
+    setTimeout(function(){$('#f3').css({ opacity:"0.6"});},1600*qq)
     
-    setTimeout(function(){$('.map').css({ opacity:"0.9"});},2000)
+    setTimeout(function(){$('.map').css({ opacity:"0.9"});},2000*qq)
     
     
 
