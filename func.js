@@ -203,7 +203,7 @@ window.onload = function () {
      setTimeout(function(){
        $('#rrt').css({"width":res(600),"font-size": res(30)});
     $('#rr').css({"font-size": res(20)});
-    $('#ii').css({"margin-top": res(-20),"background-size":res(1400),"padding":res(40), "width":res(1400)});
+    $('#ii').css({"margin-top": res(-20),"background-size":res(1400),"padding":res(40), "width":res(1400),"height":res(1080)});
     $('#logo').css({"font-size": res(50),"margin-left":res(15),"margin-top":res(-15)});
     $('.h-l').css({"margin-top":res(-25)});
     $('.map').css({"width":res(500),"margin-top":res(136),"height": res(385)});
