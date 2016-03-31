@@ -222,15 +222,7 @@ window.onload = function () {
 }
 
     
- $('#MM').click(
-	function(){
-	  $(".bar").css({"margin-left":"0"});}
-	);
-$('#M2').click(
-	function(){
-	  $(".bar").css({"margin-left":"-400px"});}
-	);		
-    
+
     setTimeout(function(){$('#logo').css({ opacity:"1","margin-left": res(20)});},10*qq)
     setTimeout(function(){$('.h-l').css({"width": res(600)});},500*qq)
     setTimeout(function(){$('#ii').css({ opacity:"1","margin-left": "0px"});},50*qq)
