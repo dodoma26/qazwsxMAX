@@ -203,10 +203,10 @@ window.onload = function () {
      setTimeout(function(){
        $('#rrt').css({"width":res(600),"font-size": res(30)});
     $('#rr').css({"font-size": res(20)});
-    $('.bg').css({"margin-top": res(-20),"background-size":res(1920),"padding":res(40)});
+    $('#ii').css({"margin-top": res(-20),"background-size":res(1400),"padding":res(40), "width":res(1400)});
     $('#logo').css({"font-size": res(50),"margin-left":res(15),"margin-top":res(-15)});
     $('.h-l').css({"margin-top":res(-25)});
-    $('.map').css({"width":res(480),"margin-top":res(136),"height": res(385)});
+    $('.map').css({"width":res(500),"margin-top":res(136),"height": res(385)});
     $('.SO').css({"margin-left": res(-15),"margin-top":res(10), opacity:"1"});
     $('.weather').css({"margin-left": res(50),"margin-top":res(20),"font-size": res(20)});
     $('.op').css({"margin-left": res(900)});
@@ -222,21 +222,15 @@ window.onload = function () {
 }
 
     
- 
-    $('.bar').css({"height":"100%"});
-    $('.bg').css({"background-size":screen.width-res(530),"height":1080*(screen.width/1920)});
-
-   $('#MM').click(
+ $('#MM').click(
 	function(){
-	  $(".bar").css({"margin-left": "0px"});
-    }
-		);
-    $('#M2').click(
+	  $(".bar").css({"margin-left":"0"});}
+	);
+$('#M2').click(
 	function(){
-       
-	  $(".bar").css({"margin-left": "-380px"});
-    }
-		);
+	  $(".bar").css({"margin-left":"-400px"});}
+	);		
+    
     setTimeout(function(){$('#logo').css({ opacity:"1","margin-left": res(20)});},10*qq)
     setTimeout(function(){$('.h-l').css({"width": res(600)});},500*qq)
     setTimeout(function(){$('#ii').css({ opacity:"1","margin-left": "0px"});},50*qq)
@@ -261,3 +255,4 @@ window.onload = function () {
     location.href = a+~~q.toString()+b;
 
     }
+
