@@ -199,7 +199,7 @@ function res(whot){
         
         return whot;
     }
-
+window.onload = function () {
      setTimeout(function(){
        $('#rrt').css({"width":res(600),"font-size": res(30)});
     $('#rr').css({"font-size": res(20)});
@@ -214,12 +214,12 @@ function res(whot){
     $('.text').css({"margin-top":res(0),"font-size": res(20),"width": res(850), opacity:"0.8"});
     $('.photo').css({"margin-left": res(50),"margin-top":res(150),"width": res(215),"height": res(323)});
     $('#MM').css({"margin-left": res(-20),"width": res(33),"height": res(36)});
-    $('.bar').css({"margin-left": res(-400),"width": res(300),"padding-top": res(66)});
+    $('.bar').css({"margin-left": res(-400),"width": res(300),"padding-top": res(60)});
     $('.row').css({"margin-top": res(12),"width": res(290),"font-size": res(16),"height": res(20)});
     $('#M2').css({"margin-top": res(-25),"width": res(40),"height": res(40),"margin-left": res(245)});
     $('#M3').css({"margin-top": res(-25),"width": res(40),"height": res(40),"margin-left": res(5)});
      },10)
-
+}
 
     
 	
