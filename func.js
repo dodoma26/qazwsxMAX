@@ -206,7 +206,7 @@ window.onload = function () {
     $('.bg').css({"margin-top": res(-20),"background-size":res(1920),"padding":res(40)});
     $('#logo').css({"font-size": res(50),"margin-left":res(15),"margin-top":res(-15)});
     $('.h-l').css({"margin-top":res(-25)});
-    $('.map').css({"width":res(600),"margin-top":res(170),"height": res(385)});
+    $('.map').css({"width":res(480),"margin-top":res(136),"height": res(385)});
     $('.SO').css({"margin-left": res(-15),"margin-top":res(10), opacity:"1"});
     $('.weather').css({"margin-left": res(50),"margin-top":res(20),"font-size": res(20)});
     $('.op').css({"margin-left": res(900)});
